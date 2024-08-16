@@ -1,0 +1,12 @@
+---
+- name: TEST PLAYBOOK
+  hosts: all
+  become: true
+  gather_facts: false
+  tasks:
+    - name: Check free disk space using raw module
+      raw: echo "Hello, khkjkhlk sdff new right!" >  dasra1.txt 
+
+    - name: Display the hostname using raw module
+      raw: hostname  
+    
