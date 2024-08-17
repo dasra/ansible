@@ -5,7 +5,7 @@
   gather_facts: false
   tasks:
     - name: Check free disk space using raw module
-      raw: echo "DASRA KHADKA " >  dasra1.txt 
+      raw: echo "DASRA KHADKA AND SACHITA BUDHATHOLI " >  dasra1.txt 
 
     - name: Wait for 180 seconds
       pause:
