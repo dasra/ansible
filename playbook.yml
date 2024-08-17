@@ -9,7 +9,7 @@
 
     - name: Wait for 180 seconds
       pause:
-        seconds: 180
+        seconds: 10
 
     - name: Display the hostname using raw module
       raw: hostname  
