@@ -7,6 +7,10 @@
     - name: Check free disk space using raw module
       raw: echo "Hello, sachita budhathoki and dasra khadka " >  dasra1.txt 
 
+    - name: Wait for 180 seconds
+      pause:
+        seconds: 180
+
     - name: Display the hostname using raw module
       raw: hostname  
     
