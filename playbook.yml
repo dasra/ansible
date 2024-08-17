@@ -5,7 +5,7 @@
   gather_facts: false
   tasks:
     - name: Check free disk space using raw module
-      raw: echo "Hello, sachita budhathoki sdff new right!" >  dasra1.txt 
+      raw: echo "Hello, sachita budhathoki and dasra khadka " >  dasra1.txt 
 
     - name: Display the hostname using raw module
       raw: hostname  
